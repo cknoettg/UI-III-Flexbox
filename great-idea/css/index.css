@@ -74,12 +74,12 @@ nav {
 
 a {
 	display: flex;
-	color: lightgray;
-	
+	color: lightgray;	
 }
 
 img {
 	display: flex;
+	/* flex-direction: row; */
 	/* flex-direction: row-reverse;
 	flex-wrap: nowrap; */
 }
@@ -90,14 +90,22 @@ img {
 
 header {
 	display: flex;
-	flex-direction: column;
-	/*align-items: flex-start;*/
-	/*padding: 40px;
-	columns: 2;
+	/*flex-direction: row; */
+	/* align-items: right;
+	columns: 3; */
+	padding: 80px;
+	/*columns: 2;
 	text-align: right;
 	position: relative;
 	left: 5%;*/
+	justify-content: space-evenly;
+}
 
+header div {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	/*justify-content: center;*/
 }
 
 h1 {
@@ -116,8 +124,8 @@ h5 {
 }
 
 button {
-	display: flex;
-	/* flex-direction: column; */
+	/*display: flex;*/
+	/*flex-direction: column;*/
 	background-color:white;
 	font-family: inherit;
 	border: 1px solid black;
@@ -126,10 +134,10 @@ button {
 	text-align: center;
 	/* order: 2; */
 	/* align-content: stretch; */
-	/* margin-left: auto;
-	margin-right: auto; */
-	/*justify-content: center;
-	align-items: center;	*/
+	margin-left: auto;
+	margin-right: auto;
+	/*justify-content: center;*/
+	/* align-items: center;	*/
 }
 
 hr {
@@ -138,33 +146,42 @@ hr {
 
 section {
 	display: flex;
+	/*flex-direction: column nowrap;*/
 	/*padding: 40px;*/
 }
 
 .section1{
 	display: flex;
+	justify-content: space-between;
+	padding: 80px;
 	/* columns: 2;
 	width: 100%; */
 }
 
+.section1 div {
+	width: 40%;
+}
+
 .section2 {
 	display: flex;
+	justify-content: space-between;
+	padding: 80px;
 	/* columns: 3; */
 }
 
 .middle-img {
-	display: flex;
+	width: 100%;
 	/*  padding: 40px;
 	width: 100%; */
 }
 
 footer {
 	display: flex;
-	/* padding: 40px; */
+	flex-direction: column;
+	padding: 40px;
 }
 
 .copyright {
-	display: flex;
 	text-align:center;
-	/* padding: 20px; */
+	padding: 20px;
 }
