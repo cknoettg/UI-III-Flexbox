@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+html {
+	margin: 5%;
+}
+nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+a {
+	display: flex;
+	color: lightgray;
+	
+}
+
+img {
+	display: flex;
+	/* flex-direction: row-reverse;
+	flex-wrap: nowrap; */
+}
+
+.logo {
+	display: flex;
+}
+
+header {
+	display: flex;
+	flex-direction: column;
+	/*align-items: flex-start;*/
+	/*padding: 40px;
+	columns: 2;
+	text-align: right;
+	position: relative;
+	left: 5%;*/
+
+}
+
+h1 {
+	display: flex;
+	/*flex-direction: column; */
+	/*vertical-align: top;*/
+	font-size: 96px;
+	text-align: center;
+	/*padding: 40px;*/
+	/* margin-bottom: auto; */
+}
+
+h5 {
+	font-weight: bold;
+	text-align: left;
+}
+
+button {
+	display: flex;
+	/* flex-direction: column; */
+	background-color:white;
+	font-family: inherit;
+	border: 1px solid black;
+	height: 40px;
+	width: 200px;	
+	text-align: center;
+	/* order: 2; */
+	/* align-content: stretch; */
+	/* margin-left: auto;
+	margin-right: auto; */
+	/*justify-content: center;
+	align-items: center;	*/
+}
+
+hr {
+	border: 1px solid black;
+}
+
+section {
+	display: flex;
+	/*padding: 40px;*/
+}
+
+.section1{
+	display: flex;
+	/* columns: 2;
+	width: 100%; */
+}
+
+.section2 {
+	display: flex;
+	/* columns: 3; */
+}
+
+.middle-img {
+	display: flex;
+	/*  padding: 40px;
+	width: 100%; */
+}
+
+footer {
+	display: flex;
+	/* padding: 40px; */
+}
+
+.copyright {
+	display: flex;
+	text-align:center;
+	/* padding: 20px; */
+}
