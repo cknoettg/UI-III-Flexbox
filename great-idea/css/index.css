@@ -112,11 +112,16 @@ button {
 	background-color:white;
 	font-family: inherit;
 	border: 1px solid black;
+	border-radius: 5px;
 	height: 40px;
 	width: 200px;	
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.index-button {
+	border-radius: 0px;
 }
 
 hr {
@@ -163,8 +168,6 @@ footer {
 	display: flex;
 	flex-direction: column;
 	padding: 40px;
-	/*align-items: center;
-	justify-content: center;*/
 }
 
 .services-header-img {
@@ -189,14 +192,12 @@ h2 {
 .div1, .div2, .div3 {
 	column-count: 2;
 	padding: 40px;
-	/* column-rule-style: solid; */
 }
 
 .box {
 	border: 1px solid black;
 	background-color: lightgrey;
 	align-items: center;
-	/*justify-content: center;*/
 	width: 80%;
 	padding: 40px;
 
