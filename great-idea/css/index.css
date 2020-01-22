@@ -171,27 +171,6 @@ footer {
 	width: 100%;
 }
 
-.services-header div {
-	display: flex;
-	/*align-items: center;
-	justify-content: center;*/
-	padding-top: 40px;
-	width: 50%;
-}
-
-.services-header div p {
-	width: 100%;
-}
-
-section p:last-child {
-	/*display: block;*/
-	/*padding: 80px;*/
-	order:1;
-	width: 100%;
-	margin: 0;
-}
-
-
 h2 {
 	padding-top: 20px;
 	font-size: 48px;
@@ -203,8 +182,13 @@ h2 {
 	justify-content: center;
 }
 
+.services-section p {
+	padding-bottom: 10px;
+}
+
 .div1, .div2, .div3 {
 	column-count: 2;
+	padding: 40px;
 	/* column-rule-style: solid; */
 }
 
@@ -213,7 +197,18 @@ h2 {
 	background-color: lightgrey;
 	align-items: center;
 	/*justify-content: center;*/
-	width: 50%;
+	width: 80%;
+	padding: 40px;
+
+}
+
+.facts {
+	padding: 40px;
+	
+}
+
+.facts p {
+	width: 75%
 }
 
 ul {
