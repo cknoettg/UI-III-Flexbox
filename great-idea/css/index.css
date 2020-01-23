@@ -222,4 +222,25 @@ li {
 	margin: 0 0 5px 0;
 }
 
-/* TODO: Make buttons have rounded corners */
+/* Added CSS for the About Page */
+.about-header {
+	display: flex;
+	columns: 2;
+}
+
+.about-header p {
+	align-items:center;
+	justify-content:center;
+	width: 40%;
+}
+
+.about-section {
+	flex-direction: column;
+	columns: 2;
+	align-items:center;
+	justify-content:center;
+}
+
+.about-section p {
+	width: 40%;
+}
