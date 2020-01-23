@@ -192,6 +192,7 @@ h2 {
 .div1, .div2, .div3 {
 	column-count: 2;
 	padding: 40px;
+	justify-content: center;
 }
 
 .box {
