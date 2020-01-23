@@ -244,3 +244,9 @@ li {
 .about-section p {
 	width: 40%;
 }
+
+/* Added Media Queries */
+@media(max-width: 500px) {
+	.container {
+	  background: gray;
+	}
